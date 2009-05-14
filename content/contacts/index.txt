@@ -1,0 +1,19 @@
+---
+title:      Contact information
+subtitle:   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+created_at: 2009-05-14 09:37:16.861447 -07:00
+filter:
+  - erb
+ads:
+ - one
+ - two
+ - three
+---
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+Nunc congue ipsum vestibulum libero. Aenean vitae justo. Nam eget tellus. 
+Etiam convallis, est eu lobortis mattis, lectus tellus tempus felis, 
+a ultricies erat ipsum at metus.</p>
+
+<div class="wrapper">
+    <a href="#" class="link1"><em><b>click here to read more</b></em></a>
+</div>

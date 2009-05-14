@@ -1,0 +1,22 @@
+---
+title:      Company products
+subtitle:   Tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Vestibulum sed  ante.
+created_at: 2009-05-14 09:36:58.310579 -07:00
+filter:
+  - erb
+ads:
+ - one
+ - two
+ - three
+---
+<p>Donec in velit vel ipsum auctor pulvinar. Proin ullamcorper urna et felis.<br />
+<a href="#">Mauris fermentum dictum magna. Sed laoreet aliquam leo</a>. 
+Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula.</p>
+<p>Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue. 
+Nam elit magna, hendrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa. 
+Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. 
+Donec eget tellus non erat lacinia fermentum.</p>
+
+<div class="wrapper">
+    <a href="#" class="link1"><em><b>click here to view all products</b></em></a>
+</div>
