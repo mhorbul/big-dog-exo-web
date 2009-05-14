@@ -49,7 +49,7 @@ filter:    erb
 
         <div class="row-3">
             <h2>
-                <big style="font-weight: bold;"><%= @page.title %></big><br>
+                <%= @page.title %><br>
                 <%= @page.slogan %>
             </h2>
 
@@ -64,7 +64,7 @@ filter:    erb
         <div class="wrapper">
     
             <% @page.ads.each_with_index do |ad,i| -%>
-                <div class="col-<%= i %> divider maxheight"><div class="box maxheight"><div class="inner">
+                <div class="col-<%= (i+1) %> <%= i < 2 ? "divider" : "" -%> maxheight"><div class="box maxheight"><div class="inner">
                     <%= render :partial => "ads/#{ad}" %>
                     <div class="clear"></div>
                 </div></div></div>

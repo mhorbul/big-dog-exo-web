@@ -1,5 +1,5 @@
 ---
-title:      The&nbsp;&nbsp; Big&nbsp; Dog&nbsp; EXO
+title:      <big><b>The&nbsp;&nbsp; Big&nbsp; Dog&nbsp; EXO</b></big>
 slogan:     Making Life Easy On Your Iphone.
 subtitle:   We make your decision making quick and easy!!!
 created_at: 2009-05-14 08:03:13.242010 -07:00
