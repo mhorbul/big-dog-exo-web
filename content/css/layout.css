@@ -1,0 +1,45 @@
+#main {width:857px; margin:0 auto;}
+
+#header {height:539px; position:relative;}
+#header, #content, #footer { font-size:0.75em;}
+
+.col-1, .col-2, .col-3 { float:left;}
+
+/*======= index.html =======*/
+#page1 #content .col-1 {width:285px;}
+#page1 #content .col-2 {width:285px;}
+#page1 #content .col-3 {width:285px;}
+
+/*======= index-1.html =======*/
+#page2 #content .col-1 {width:285px;}
+#page2 #content .col-2 {width:285px;}
+#page2 #content .col-3 {width:285px;}
+
+/*======= index-2.html =======*/
+#page3 #content .col-1 {width:285px;}
+#page3 #content .col-2 {width:285px;}
+#page3 #content .col-3 {width:285px;}
+
+/*======= index-3.html =======*/
+#page4 #content .col-1 {width:285px;}
+#page4 #content .col-2 {width:285px;}
+#page4 #content .col-3 {width:285px;}
+
+/*======= index-4.html =======*/
+#page5 #content .col-1 {width:285px;}
+#page5 #content .col-2 {width:285px;}
+#page5 #content .col-3 {width:285px;}
+
+/*======= index-5.html =======*/
+#page6 #content .col-1 {width:285px;}
+#page6 #content .col-2 {width:285px;}
+#page6 #content .col-3 {width:285px;}
+
+/*======= index-6.html =======*/
+#page7 #header .row-3 { padding-left:20px;}
+
+
+/*=========================*/
+
+
+#footer {height:81px;}

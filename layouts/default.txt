@@ -8,12 +8,12 @@ filter:    erb
   <title></title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="Content-Style-Type" content="text/css">
-  <link href="style.css" rel="stylesheet" type="text/css">
-  <link href="layout.css" rel="stylesheet" type="text/css">
-  <script type="text/javascript" src="maxheight.js"></script>
-  <script type="text/javascript" src="iepngfix_tilebg.js"></script>
+  <link href="/css/style.css" rel="stylesheet" type="text/css">
+  <link href="/css/layout.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="/javascripts/maxheight.js"></script>
+  <script type="text/javascript" src="/javascripts/iepngfix_tilebg.js"></script>
   <style type="text/css">
-    #site-nav span { behavior: url("iepngfix.htc") }
+    #site-nav span { behavior: url("javascripts/iepngfix.htc") }
   </style>
 </head>
 <body id="page1" onload="new ElementMaxHeight();">
