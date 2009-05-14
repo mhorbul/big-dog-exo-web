@@ -27,16 +27,16 @@ filter:    erb
             </div>
         </div>
 
-        <% pages = %w(Home Company Products Downloads Supoprt Contacts) %>
+        <% pages = %w(Home Company Products Downloads Support Contacts) %>
 
         <div class="row-2">
             <ul id="site-nav">
                 <% pages.each do |page| -%>
                  <li>
                     <% if page == "Home" -%>
-                        <a class="<%= @page.path =~ /index.txt$/ ? "current" : "" %>" href="/index.html">
+                        <a class="<%= @page.path =~ /content\/index.txt$/ ? "current" : "" %>" href="/index.html">
                     <% else -%>
-                        <a class="<%= @page.path =~ %r[page]i ? "current" : "" %>" href="/<%= page.downcase %>/">
+                        <a class="<%= @page.path =~ %r[#{page}]i ? "current" : "" %>" href="/<%= page.downcase %>/">
                     <% end -%>    
                         <span class="left"><span class="right">
                             <span class="center"><%= page %></span>
