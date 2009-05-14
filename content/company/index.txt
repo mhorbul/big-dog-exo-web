@@ -1,0 +1,22 @@
+---
+title:      Ensuring the highest<br>level of customers satisfaction.
+subtitle:   Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Vestibulum sed ante. Donec sagittis euismod purus.
+created_at: 2009-05-14 09:35:10.734609 -07:00
+filter:
+  - erb
+ads:
+ - one
+ - two
+ - three
+---
+<p>Donec in velit vel ipsum auctor pulvinar. Proin ullamcorper urna et
+felis.<br>
+<a href="#">Mauris fermentum dictum magna. Sed laoreet aliquam leo</a>.
+Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut,
+ligula. Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis
+quis, lobortis dignissim, pulvinar ac, lorem. Vestibulum sed ante.
+Donec sagittis euismod purus. Proin ullamcorper urna et felis.</p>
+
+<div class="wrapper">
+    <a href="#" class="link1"><em><b>click here to read more</b></em></a>
+</div>
