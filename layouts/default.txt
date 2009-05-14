@@ -23,7 +23,7 @@ filter:    erb
             <div id="main-bg"></div>
             <div class="row-1">
             <div class="indent">
-                <a href="index.html"><img alt="" src="images/logo.jpg"></a>
+                <a href="index.html"><img alt="" src="/images/logo.jpg"></a>
             </div>
         </div>
 
