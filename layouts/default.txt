@@ -33,12 +33,16 @@ filter:    erb
             <ul id="site-nav">
                 <% pages.each do |page| -%>
                  <li>
-                    <a class="<%= @page.path.match(%r[page]i) ? "current" : "" %>" href="/<%= page.downcase %>/">
+                    <% if page == "Home" -%>
+                        <a class="<%= @page.path =~ /index.txt$/ ? "current" : "" %>" href="/index.html">
+                    <% else -%>
+                        <a class="<%= @page.path =~ %r[page]i ? "current" : "" %>" href="/<%= page.downcase %>/">
+                    <% end -%>    
                         <span class="left"><span class="right">
                             <span class="center"><%= page %></span>
                         </span></span>
                      </a>
-                 </li>            
+                 </li>
                 <% end -%>
             </ul>
         </div>
