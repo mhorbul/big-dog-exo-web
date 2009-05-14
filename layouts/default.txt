@@ -5,7 +5,7 @@ filter:    erb
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-  <title></title>
+  <title>The Big Dog EXO<%= " - #{@page.title}" %></title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="Content-Style-Type" content="text/css">
   <link href="/css/style.css" rel="stylesheet" type="text/css">
@@ -43,50 +43,32 @@ filter:    erb
             </ul>
         </div>
 
-        <div class="row-3"><%= content %></div>
+        <div class="row-3">
+            <h2>
+                <big style="font-weight: bold;"><%= @page.title %></big><br>
+                <%= @page.slogan %>
+            </h2>
+
+            <h3><%= @page.subtitle %><br></h3>
+
+            <%= @content %>
+        </div>
 
     </div>
 <!-- content -->
-<div id="content">
-<div class="wrapper">
-<div class="col-1 divider maxheight">
-<div class="box maxheight">
-<div class="inner"> <img class="img-indent" alt=""
- src="images/1page-img1.jpg">
-<h4>Use Your Iphone<br>
-</h4>
-<p class="p1">Donec accumsan malelore suada orci. Donec sit amet eros. <a
- href="#">Read more</a></p>
-<div class="clear"></div>
+    <div id="content">
+        <div class="wrapper">
+    
+            <% @page.ads.each_with_index do |ad,i| -%>
+                <div class="col-<%= i %> divider maxheight"><div class="box maxheight"><div class="inner">
+                    <%= render :partial => "ads/#{ad}" %>
+                </div></div></div>
+            <% end -%>    
+
+        </div>
+    </div>
 </div>
-</div>
-</div>
-<div class="col-2 divider maxheight">
-<div class="box maxheight">
-<div class="inner"> <img class="img-indent" alt=""
- src="images/1page-img2.jpg">
-<h4>Make Decisions On Time<br>
-</h4>
-<p class="p1">Vestibulum sed ante donec sagittis euismod purus lobortis
-dignis. <a href="#">Read more</a></p>
-<div class="clear"></div>
-</div>
-</div>
-</div>
-<div class="col-3 maxheight">
-<div class="box maxheight">
-<div class="inner"> <img class="img-indent" alt=""
- src="images/1page-img3.jpg">
-<h4>Trusting Us<br>
-</h4>
-<p class="p1">Cum sociis natoque penati bus et magnis dis parturient
-montes. <a href="#">Read more</a></p>
-<div class="clear"></div>
-</div>
-</div>
-</div>
-</div>
-</div>
+
 <!-- footer -->
 <div id="footer">
 <p>Software Company © 2009&nbsp; |&nbsp; <a href="#">Privacy policy</a></p>
