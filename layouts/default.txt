@@ -62,6 +62,7 @@ filter:    erb
             <% @page.ads.each_with_index do |ad,i| -%>
                 <div class="col-<%= i %> divider maxheight"><div class="box maxheight"><div class="inner">
                     <%= render :partial => "ads/#{ad}" %>
+                    <div class="clear"></div>
                 </div></div></div>
             <% end -%>    
 
