@@ -1,0 +1,29 @@
+---
+title:       The&nbsp;&nbsp; Big&nbsp; Dog&nbsp; EXO
+created_at:  2008-08-02 14:06:40.000000 -06:00
+filter:
+  - erb
+---
+p(title). 
+
+<h2>
+    <big style="font-weight: bold;"><%= @page.title %></big><br>
+    Making Life Easy On Your Iphone.
+</h2>
+
+<h3>We make your decision making quick and easy!!!<br></h3>
+
+<p>Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum
+dolor sit amet, consectetuer adipiscing elit. <a href="#">Mauris
+fermentum dictum magna. Sed laoreet aliquam leo.</a> Ut tellus dolor,
+dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi
+et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu
+lacus.</p>
+<p>Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum
+dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum
+magna.</p>
+
+<div class="wrapper">
+    <a href="#" class="link1"><em><b>download trial version now</b></em></a>
+</div>
+
