@@ -48,13 +48,9 @@ filter:    erb
         </div>
 
         <div class="row-3">
-            <h2>
-                <%= @page.title %><br>
-                <%= @page.slogan %>
-            </h2>
-
-            <h3><%= @page.subtitle %><br></h3>
-
+            <h2><%= @page.title %></h2>
+            <h3><%= @page.subtitle %></h3>
+            <br />
             <%= @content %>
         </div>
 
