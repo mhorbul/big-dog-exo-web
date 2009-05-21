@@ -22,9 +22,6 @@ filter:    erb
         <div id="header">
             <div id="main-bg"></div>
             <div class="row-1">
-            <div class="indent">
-                <a href="index.html"><img alt="" src="/images/logo.jpg"></a>
-            </div>
         </div>
 
         <% pages = %w(Home Company Products Downloads Support Contacts) %>
