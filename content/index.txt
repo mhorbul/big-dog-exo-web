@@ -1,6 +1,6 @@
 ---
-title:      <big><b>The&nbsp;&nbsp; Big&nbsp; Dog&nbsp; EXO</b></big><br />Making Life Easy On Your Iphone.
-subtitle:   We make your decision making quick and easy!!!
+title:      <big><b>The&nbsp;&nbsp; Big&nbsp; Dog&nbsp; EXO</b></big><br />Making Life Easy On Your iPhone.
+subtitle:   The Big Dog EXO is in the house.  A leading world-class global Iphone developer located in the heart of the San Francisco Bay Area. 
 created_at: 2009-05-14 08:03:13.242010 -07:00
 filter:
   - erb
@@ -9,16 +9,4 @@ ads:
  - two
  - three
 ---
-<p>Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum
-dolor sit amet, consectetuer adipiscing elit. <a href="#">Mauris
-fermentum dictum magna. Sed laoreet aliquam leo.</a> Ut tellus dolor,
-dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi
-et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu
-lacus.</p>
-<p>Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum
-dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum
-magna.</p>
-
-<div class="wrapper">
-    <a href="#" class="link1"><em><b>download trial version now</b></em></a>
-</div>
+<p>Want to boost your smarts in the mortgage and real estate markets?  The Big Dog EXO offers powerful Iphone friendly applications and tools to put you in the driver's seat.  Talk to your mortgage lender with confidence using our Iphone "Loan Statistics - The Ultimate Evaluator" application.  Are you facing foreclosure?  Take complete control of the situation with our Iphone "Foreclosure - The Ultimate Rescue Solution" application and get yourself out. If you're a broker, lender, real estate agent or foreclosure agent, our powerhouse iphone applications make it quick and easy to stay on top of the never-ending foreclosure marketplace.</p>
