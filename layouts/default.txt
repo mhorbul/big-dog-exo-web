@@ -21,7 +21,7 @@ filter:    erb
     <div id="main"><!-- header -->
         <div id="header">
             <div id="main-bg"></div>
-            <div class="row-1"></div>
+            <div class="row-1" style="background: url(/images/iphone-friendly.jpg) center right no-repeat; margin-right: 50px;">&nbsp;</div>
 
             <% pages = %w(Home Company Products Downloads Support Contacts) %>
 
