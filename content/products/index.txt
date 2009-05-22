@@ -9,13 +9,12 @@ ads:
  - two
  - three
 ---
-<p>Donec in velit vel ipsum auctor pulvinar. Proin ullamcorper urna et felis.<br />
-<a href="#">Mauris fermentum dictum magna. Sed laoreet aliquam leo</a>.
-Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula.</p>
-<p>Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue.
-Nam elit magna, hendrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa.
-Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede.
-Donec eget tellus non erat lacinia fermentum.</p>
+<ul>
+    <li>
+        <strong>Loan Statistics – The Ultimate Evaluator</strong>
+        <p>Developed as the ultimate loan analyzer tool.  Many today have no idea the costs associated with the mortgage they have.  For example, how much is being paid in principal versus interest in any given month or year?  How much is going to taxes and insurance?  Is a second or third mortgage or HELOC (Home Equity Line of Credit) playing a role?  Are you dealing with a fixed or variable rate and is the loan of value?  What is the loan to value ratio?  Our targeted reporting show valuable information that can help you see the bottom line in any given month or year.</p>
+    </li>
+</ul>
 
 <div class="wrapper">
     <a href="#" class="link1"><em><b>click here to view all products</b></em></a>
