@@ -1,5 +1,5 @@
 desc "run the webserver for tests on win32"
-task :webserver do 
+task :webserver do
   require 'webrick'
   include WEBrick
 

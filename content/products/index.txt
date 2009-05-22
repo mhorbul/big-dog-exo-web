@@ -10,11 +10,11 @@ ads:
  - three
 ---
 <p>Donec in velit vel ipsum auctor pulvinar. Proin ullamcorper urna et felis.<br />
-<a href="#">Mauris fermentum dictum magna. Sed laoreet aliquam leo</a>. 
+<a href="#">Mauris fermentum dictum magna. Sed laoreet aliquam leo</a>.
 Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula.</p>
-<p>Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue. 
-Nam elit magna, hendrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa. 
-Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. 
+<p>Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue.
+Nam elit magna, hendrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa.
+Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede.
 Donec eget tellus non erat lacinia fermentum.</p>
 
 <div class="wrapper">
